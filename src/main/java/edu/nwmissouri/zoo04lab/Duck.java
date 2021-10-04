@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package edu.nwmissouri.SandhyaNidigonda04lab;
+package edu.nwmissouri.zoo04lab;
 
 /**
  *
@@ -17,11 +17,11 @@ public class Duck extends Animal {
      public  void speak() {
         System.out.println("I am Duck named " +this.name);
 }
-    @Override
+    
      public  void eat() {
         System.out.println("I eat earthworms");
 }
-    @Override
+    
      public  void sleep() {
         System.out.println("I sleep on water");
 } 
